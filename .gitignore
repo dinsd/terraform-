@@ -6,17 +6,17 @@
 *.tfstate.*
 
 # .tfvars files
-*.tfvars
+#*.tfvars
 
 # .tfplan files
 
-*.tfplan
+#*.tfplan
 
 # .pem files
-*.pem
+#*.pem
 
 # .hcl files from Terraform v0.14 and newer
-*.hcl
+#*.hcl
 # Crash log files
 crash.log
 

@@ -1,6 +1,7 @@
 # creating ec2 resource 
 
 resource "aws_instance" "tfServer" {
+  count = 3 #meta argument
   ami           = data.aws_ami.ubuntu.image_id #data.label1.label2.datasource_ami
   instance_type = var.instance_type # referencing to instance type in variables.tf
   tags = {

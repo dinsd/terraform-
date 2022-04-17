@@ -10,6 +10,6 @@ output "tfServerState" {
     value = aws_instance.tfServer.instance_state # label1.label2.instance state from (argument reference documentation)
 }
 
-output "amiPrint" {
-  value = data.aws_ami.ubuntu #data.label1.label2 from ami datasource
+output "tfServerAMI" {
+  value = data.aws_ami.ubuntu.image_id #data.label1.label2 from ami datasource
 }

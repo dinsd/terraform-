@@ -8,6 +8,7 @@ resource "aws_instance" "main" {
     Name        =  "${var.env}-instance" # referencing to environment in variables.tf
     Environment = var.env
     Project = var.project
+    Bucket_name = var.s3_bucket_name
   }
   
 }

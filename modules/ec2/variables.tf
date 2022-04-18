@@ -20,3 +20,8 @@ variable "project" {
     description = "project-var"
  
 }
+variable "s3_bucket_name" {
+    type = string
+    description = "s3bucket-var"
+ 
+}

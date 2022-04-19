@@ -19,6 +19,6 @@ name = "my-vpc"
 
 }
 module "s3" {
-  source = "https://github.com/dinsd/terraform-/tree/main/modules/s3"
+  source = "https://github.com/dinsd/terraform-/modules/s3"
   env = "dev"
 }
